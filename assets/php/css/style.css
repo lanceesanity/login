@@ -21,7 +21,28 @@ body{
     background:url("cube.gif") no-repeat center;
     box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
   }
-
+  .form_error span {
+    width: 80%;
+    height: 35px;
+    margin: 3px 10%;
+    font-size: 1.1em;
+    color: #D83D5A;
+  }
+  .form_error input {
+    border: 1px solid #D83D5A;
+  }
+.header
+{
+	width:100%;
+	height:50px;
+	background:#00a2d1;
+	font-family:"Lucida Handwriting";
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+	font-size:35px;
+	font-weight:bolder;
+	color:#f9f9f9;
+}
   /* cube for login */
   .login-html{
     width:100%;
