@@ -17,7 +17,7 @@ if ($count == 1){
 
 //echo "Login Credentials verified";
 echo "Login Credentials verified";
-header("refresh:0.01; url=home_page/home.php");
+header("refresh:0.01; url=assets/php/home_page/home.php");
 
 }else{
     $login_error="Username and Password not match";

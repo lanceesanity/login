@@ -12,7 +12,9 @@
 <body>
 <div class="text-box">
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <div class="header">Sorry, Error, Account Not Created</div>
+      <div class="header">Sorry, Error, Account Not Created, Please retype again</div>
+      <?php header("refresh:2; url=register.php");
+      ?>
       </div>
     </div>
     </body>

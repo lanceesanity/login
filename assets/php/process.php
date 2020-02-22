@@ -30,7 +30,7 @@ $db = mysqli_connect('localhost', 'root', '', 'website');
            $query = "INSERT INTO register (fname,mname,lname,gender,birthday,username,email,password) VALUES ('$firstname','$middlename','$lastname','$gender','$birthday','$username','$email','$password')";
            $results = mysqli_query($db, $query);
            echo 'Saved!';
-           header("refresh:2; url=account_success.php");
+           header("refresh:2; url=assets/php/account_success.php");
   	}
   }
 ?>

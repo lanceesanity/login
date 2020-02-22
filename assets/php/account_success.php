@@ -12,7 +12,9 @@
 <body>
 <div class="text-box">
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-      <div class="header">Account Successfully created</div>
+      <div class="header">Account Successfully created, Login to the mainpage</div>
+      <?php header("refresh:2; url=home_page/login.php");
+      ?>
       </div>
     </div>
     </body>
